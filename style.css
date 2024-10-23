@@ -1,0 +1,43 @@
+* {
+  margin: 0px;
+}
+
+body {
+  height: 100vh;
+  background-image: url(/imagenes/Cronometro.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.centrar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tiempo{
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor {
+  height: 40%;
+  width: 30%;
+  background-color: whitesmoke;
+  flex-direction: column;
+  margin: 20px;
+  min-width: 300px;
+  border: 3px solid black;
+  border-radius: 50px;
+  flex-wrap: nowrap;
+}
+
+button {
+  margin: 10px;
+}
+
+h1{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 28pt;
+}
